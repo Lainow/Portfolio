@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import WhoIm from "./WhoIm";
 
 function About() {
   return (
@@ -21,9 +22,12 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+            <h1 style={{ fontSize: "2.1em"}}>
+              Qui suis-je ?
             </h1>
+            <strong className="blue" style={{paddingBottom: "20px" }}>
+                <WhoIm />
+            </strong>
             <Aboutcard />
           </Col>
           <Col
